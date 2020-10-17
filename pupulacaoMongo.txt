@@ -1,0 +1,19 @@
+use clubes
+
+db.clubes.insert({nome:"Benfica",anofundacao: 1904,treinador:{nome:"Jorge Jesus",idade: 66},jogadores:[{nome:"Odysseas",idade:26},{nome:"Andre Almeida",idade:29},{nome:"Ruben Dias",idade:23},{nome:"Ferro",idade:23},{nome:"Grimaldo",idade:24},{nome:"Adel Taarabt",idade:31},{nome:"Cervi",idade:26},{nome:"Pizzi",idade:30},{nome:"Rafa",idade:27},{nome:"Chiquinho",idade:24},{nome:"Seferovic",idade:27}] })
+
+
+db.clubes.insert({nome:"Porto",anofundacao: 1893,treinador:{nome:"Sergio Conceicao",idade:45 },jogadores:[{nome:"Diogo Costa",idade:20},{nome:"Diogo Leite",idade:21},{nome:"Chancel Mbemba",idade:26},{nome:"Alex Telles",idade:27},{nome:"Wilson Manafa",idade:26},{nome:"Danilo Pereira",idade:28},{nome:"Sergio Oliveira",idade:28},{nome:"Vitor Ferreira",idade:20},{nome:"Shoya Nakajima",idade:26},{nome:"Ze Luis",idade:29},{nome:"Vincent Aboubakar",idade:28}] })
+
+db.clubes.insert({nome:"Sporting",anofundacao: 1906,treinador:{nome:"Ruben Amorim",idade:35 },jogadores:[{nome:"Renan Ribeiro",idade:30},{nome:"Sebastian Coates",idade:29},{nome:"Eduardo Quaresma",idade:18},{nome:"Marcos Acuna",idade:28},{nome:"Pedro Porro",idade:20},{nome:"Joao Palhinha",idade:25},{nome:"Wendel",idade:23},{nome:"Mattheus",idade:26},{nome:"Joelson Fernandes",idade:17},{nome:"Jovane Cabral",idade:22},{nome:"Luciano Vietto",idade:26}] })
+
+
+db.treinadores.insert({nome:"Jorge Jesus",idade:66, clube:'Benfica'})
+db.treinadores.insert({nome:"Sergio Conceicao",idade:45, clube:'Porto'})
+db.treinadores.insert({nome:"Ruben Amorim",idade:35, clube:'Sporting'})
+
+
+
+db.jogadores.insertMany([{nome:"Odysseas",idade:26, clube:"Benfica"},{nome:"Andre Almeida",idade:29, clube:"Benfica"},{nome:"Ruben Dias",idade:23, clube:"Benfica"},{nome:"Ferro",idade:23, clube:"Benfica"},{nome:"Grimaldo",idade:24, clube:"Benfica"},{nome:"Adel Taarabt",idade:31, clube:"Benfica"},{nome:"Cervi",idade:26, clube:"Benfica"},{nome:"Pizzi",idade:30, clube:"Benfica"},{nome:"Rafa",idade:27, clube:"Benfica"},{nome:"Chiquinho",idade:24, clube:"Benfica"},{nome:"Seferovic",idade:27, clube:"Benfica"},{nome:"Diogo Costa",idade:20, clube:"Porto"},{nome:"Diogo Leite",idade:21, clube:"Porto"},{nome:"Chancel Mbemba",idade:26, clube:"Porto"},{nome:"Alex Telles",idade:27, clube:"Porto"},{nome:"Wilson Manafa",idade:26, clube:"Porto"},{nome:"Danilo Pereira",idade:28, clube:"Porto"},{nome:"Sergio Oliveira",idade:28, clube:"Porto"},{nome:"Vitor Ferreira",idade:20, clube:"Porto"},{nome:"Shoya Nakajima",idade:26, clube:"Porto"},{nome:"Ze Luis",idade:29, clube:"Porto"},{nome:"Vincent Aboubakar",idade:28, clube:"Porto"}, {nome:"Renan Ribeiro",idade:30, clube:"Sporting"},{nome:"Sebastian Coates",idade:29, clube:"Sporting"},{nome:"Eduardo Quaresma",idade:18, clube:"Sporting"},{nome:"Marcos Acuna",idade:28, clube:"Sporting"},{nome:"Pedro Porro",idade:20, clube:"Sporting"},{nome:"Joao Palhinha",idade:25, clube:"Sporting"},{nome:"Wendel",idade:23, clube:"Sporting"},{nome:"Mattheus",idade:26, clube:"Sporting"},{nome:"Joelson Fernandes",idade:17, clube:"Sporting"},{nome:"Jovane Cabral",idade:22, clube:"Sporting"},{nome:"Luciano Vietto",idade:26, clube:"Sporting"}])
+
+

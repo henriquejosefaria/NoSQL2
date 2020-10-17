@@ -1,0 +1,51 @@
+use mydb;
+
+INSERT INTO Clube (idClube,nome,anofundacao) VALUES (1,'Benfica',1904);
+
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (1,'Odysseas',26,1);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (2,'Andre Almeida',29,1);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (3,'Ruben Dias',23,1);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (4,'Ferro',23,1);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (5,'Grimaldo',24,1);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (6,'Adel Taarabt',31,1);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (7,'Cervi',26,1);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (8,'Pizzi',30,1);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (9,'Rafa',27,1);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (10,'Chiquinho',24,1);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (11,'Seferovic',27,1);
+
+INSERT INTO Treinador (idTreinador,nome,idade,idClube) VALUES (1,'Jorge Jesus',66,1);
+
+
+INSERT INTO Clube (idClube,nome,anofundacao) VALUES (2,'Porto',1893);
+
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (12,'Diogo Costa',20,2);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (13,'Diogo Leite',21,2);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (14,'Chancel Mbemba',26,2);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (15,'Alex Telles',27,2);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (16,'Wilson Manafa',26,2);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (17,'Danilo Pereira',28,2);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (18,'Sergio Oliveira',28,2);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (19,'Vitor Ferreira',20,2);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (20,'Shoya Nakajima',26,2);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (21,'Ze Luis',29,2);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (22,'Vincent Aboubakar',28,2);
+
+INSERT INTO Treinador (idTreinador,nome,idade,idClube) VALUES (2,'Sergio Conceicao',45,2);
+
+
+INSERT INTO Clube (idClube,nome,anofundacao) VALUES (3,'Sporting',1906);
+
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (23,'Renan Ribeiro',30,3);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (24,'Sebastian Coates',29,3);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (25,'Eduardo Quaresma',18,3);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (26,'Marcos Acuna',28,3);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (27,'Pedro Porro',20,3);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (28,'Joao Palhinha',25,3);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (29,'Wendel',23,3);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (30,'Mattheus',26,3);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (31,'Joelson Fernandes',17,3);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (32,'Jovane Cabral',22,3);
+INSERT INTO Jogador (idJogador,nome,idade,idClube) VALUES (33,'Luciano Vietto',26,3);
+
+INSERT INTO Treinador (idTreinador,nome,idade,idClube) VALUES (3,'Ruben Amorim',35,3);
